@@ -22,10 +22,6 @@ while(true)do
         print("status: " .. tostring(status) )
         print(type(s or partial))
         break
-        if(s ~= nil)or(partial == nil)or((partial == nil)and(s == nil))then
-            print("breaking: complete")
-            break
-        end
     end
 end
 server:close()
